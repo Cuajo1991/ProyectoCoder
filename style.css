@@ -7,24 +7,64 @@ body {
 
 
 .intitle {
-  
+  width: 30%;
   display: flex;
-  position: Center;
+  position: absolute;
   top: 0px;
   left: 0px;  
   height: 0px;
   margin: 0px;
 }
 
+.InGps {
+
+  border: 10px;
+  border-radius: 10px;
+  display: flex;
+  position: center;
+  margin: 10px;
+  width: 45%;
+
+
+}
+
+.InList {
+
+  width: 40%;
+  border: 10px;
+  border-radius: 10px;
+  display: flex;
+  margin: 10px;
+
+
+}
+
+.CfgHImage {
+
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  
+
+
+
+ 
+
+}
 
 .heroimage{
-    position: relative; 
-    width: 100%;
-    margin: 0px;   
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    border: 50px;
+
+  width: 90%;
+  border: 10px;
+  border-radius: 10px;
+  display: flex;
+  position: center;
+  margin: 0px;
+  padding: 0px;
+
+     
+   
 }
 
 
@@ -38,7 +78,6 @@ nav {
 
 .offtitle {
   padding: 0px;
-
   margin-bottom: 0px;
   position: static;  
   width: 100%;    
@@ -49,14 +88,35 @@ nav {
 
 }
 
+.OffGPS {
+
+  width: 100%;
+  justify-content: left;
+  position: flex;
+
+}
+
+.OffList {
+
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  
+  
+
+  
+
+
+}
+
 
 
 p {text-align: center;
   justify-content: center;}
 
-.container {
+.Inabout {
 
-    width: 100%;
+    width: 50%;
     border: 20;   
     border-radius: 50px;
     display: flex;
@@ -64,7 +124,24 @@ p {text-align: center;
 
 }
 
-.imgabout{
+.imgUser {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.CfgImgUser {
+
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  border: 20px;
+  border-radius: 50px;
+}
+
+.Offabout{
 position: relative;
 width: 100%;
 display: flex;
@@ -74,16 +151,7 @@ border-radius: 20px;
 
 }
 
-.gridcontainer {
-  background-color: rgb(0, 0, 0);
-  display: grid;
-  column-gap: 25px;
-  row-gap: 50px;
-  gap: 20px 45px;
-grid-column-end: 1;
-grid-column-start: 3;
 
-}
 
 
 
@@ -119,6 +187,21 @@ header  {
   justify-content: center;  
   
    }
+
+.Download {
+  justify-content: center;
+  display: flex;
+}   
+
+ .DWNLink {
+
+  text-transform: uppercase;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+
+
+ }  
 
 
 
@@ -213,35 +296,73 @@ justify-content: center;}
 
 @media screen and (min-width: 320px) {}
 @media screen and (min-width: 480px) {
-
   body {
-
     background: rgb(195,180,180);
-    background: radial-gradient(circle, rgba(195,180,180,1) 0%, rgba(26,117,246,1) 100%);    
-    background-repeat: no-repeat; 
-    
-  
+    background: radial-gradient(circle, rgba(195,180,180,1) 0%, rgba(26,117,246,1) 100%);  
+    background-repeat: no-repeat;
     
     }
   
-  .about-title {
-    position: relative;
-    top: -115px;  
-    left: 10px;
-    width: 170px;
+  
+  .intitle {
+    width: 30%;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;  
     height: 0px;
     margin: 0px;
   }
   
+  .InGps {
+  
+    border: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: center;
+    margin: 10px;
+    width: 45%;
+  
+  
+  }
+  
+  .InList {
+  
+    width: 40%;
+    border: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+  
+  
+  }
+  
+  .CfgHImage {
+  
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+  
+  
+  
+   
+  
+  }
   
   .heroimage{
-      position: relative; 
-      width: 100%;
-      margin: 0px;   
-      display: flex;
-      justify-content: center;
-      border-radius: 20px;
-      border: 50px;
+  
+    width: 90%;
+    border: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: center;
+    margin: 0px;
+    padding: 0px;
+  
+       
+     
   }
   
   
@@ -253,10 +374,36 @@ justify-content: center;}
     border-radius: 20px;
   }
   
-  h1 {
-      color: rgb(0, 0, 0);
-      text-align: left;
-      background-color: rgba(204, 29, 29, 0);
+  .offtitle {
+    padding: 0px;
+    margin-bottom: 0px;
+    position: static;  
+    width: 100%;    
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    background-color: rgba(204, 29, 29, 0);
+  
+  }
+  
+  .OffGPS {
+  
+    width: 100%;
+    justify-content: left;
+    position: flex;
+  
+  }
+  
+  .OffList {
+  
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    
+    
+  
+    
+  
   
   }
   
@@ -265,21 +412,36 @@ justify-content: center;}
   p {text-align: center;
     justify-content: center;}
   
-  .container {
+  .Inabout {
   
-      width: 100%;
+      width: 50%;
       border: 20;   
       border-radius: 50px;
       display: flex;
       justify-content: center;
   
+  }
+  
+  .imgUser {
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
   
   }
   
-  .imgabout{
-
-
-  width: 60%;
+  .CfgImgUser {
+  
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    border: 20px;
+    border-radius: 50px;
+  }
+  
+  .Offabout{
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: center;
   border: 20px;
@@ -287,25 +449,14 @@ justify-content: center;}
   
   }
   
-  .gridcontainer {
-    background-color: rgb(0, 0, 0);
-    display: grid;
-    column-gap: 25px;
-    row-gap: 50px;
-    gap: 20px 45px;
-  grid-column-end: 1;
-  grid-column-start: 3;
   
-  
-  
-  
-  }
   
   
   
   .imguser {
-
-    width: 50%;  
+  
+    width: 100%;
+  
     display: flex;
     justify-content: center;
     border-radius: 50px;}
@@ -327,13 +478,28 @@ justify-content: center;}
   }
   
   .imgdwn { 
-    
-    display: flex;
-    justify-content: center;
   
-    
+    width: 100%;
+    position: relative;  
+    display: flex;
+    justify-content: center;  
     
      }
+  
+  .Download {
+    justify-content: center;
+    display: flex;
+  }   
+  
+   .DWNLink {
+  
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+  
+  
+   }  
   
   
   
@@ -421,6 +587,7 @@ justify-content: center;}
     grid-template-columns: 300px 100px 150px ;
     grid-template-rows: 50px 100%;
   }
+
 }
 @media screen and (min-width: 600px) {}
 @media screen and (min-width: 768px) {}
